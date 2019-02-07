@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>portfolio</title>
+    <style>
+     header{
+     background:url(img12.jpeg);
+     background-size: cover;
+     background-position: center;
+     min-height:500px;
+     }
+     .section{
+       padding-top: 4vw;
+       padding-bottom: 4vw;
+     }
+     @media( max-width:670px){
+       header{
+         min-height: 500px;
+       }
+     }
+     
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar-fixed">
+     <nav class="nav-wrapper black">
+     <div class="container">
+     <a href="" class="brand-logo">MARK OKOTH</a>
+     <a href="" class="sidenav-trigger" data-target="mobile-menu">
+       <i class="material-icons">menu</i>
+     </a>
+     <ul class="right hide-on-med-and-down">
+         <li><a href="#photos">PHOTOS</a></li>
+         <li><a href="#services">SERVICES</a></li>
+         <li><a href="#contact">CONTACTS</a></li>
+     </ul>
+      <ul class="sidenav grey lighten-2" id="mobile-menu">
+          <li><a href="#photos">PHOTOS</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#contacts">CONTACTS</a></li>
+         
+      </ul>
+     </div>
+    </nav>
+    </div>
+    </header>
+    <section class="container section scrollspy" id="photos">
+       <div class="row">
+         <div class="col s12 l4">
+           <img src="img5.jpeg" alt=""class="responsive-img materialboxed">
+         </div>
+         <div class="col s12 l6 offset-l1">
+           <h2 class="indigo-text darken-4" >city view</h2>
+           <p>Lorem ipsum dolor sit amet consect
+             henderit ut omnis autem quibusdam, blanditiis quia possimus earum vitae.
+              Earum placeat ipsam quae eius eaque error dolore laboriosam blanditiis.
+            </p>
+         </div>
+       </div>
+       <div class="row">
+          <div class="col s12 l4 push-l7 offset-l1">
+            <img src="img2.jpg" alt=""class="responsive-img materialboxed">
+          </div>
+          <div class="col s12 l6 pull-l5 right-align">
+            <h2 class="indigo-text darken-4">starter pack</h2>
+            <p>Lorem ipsum dolor sit amet consect
+              henderit ut omnis autem quibusdam, blanditiis quia possimus earum vitae.
+               Earum placeat ipsam quae eius eaque error dolore laboriosam blanditiis.
+             </p>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l4">
+              <img src="img8.jpg" alt=""class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 offset-l1">
+              <h2 class="indigo-text darken-4">software</h2>
+              <p>Lorem ipsum dolor sit amet consect
+                henderit ut omnis autem quibusdam, blanditiis quia possimus earum vitae.
+                 Earum placeat ipsam quae eius eaque error dolore laboriosam blanditiis.
+               </p>
+            </div>
+          </div>
+    </section>
+
+    <div class="parallax-container">
+      <div class="parallax">
+        <img src="img4.jpeg" alt="" class="responsive-img">
+      </div>
+    </div>
+    <section class="container section scrollspy" id="services">
+      <div class="row">
+        <div class="col s12 l4">
+          <h2 class="indigo-text text-darken">what i do....</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+          <p> Explicabo asperiores voluptatum aspernatur eaque. Laborum, quidem.</p>
+        </div>
+        <div class="col s12 l6 offset-l2">
+          <ul class="tabs">
+            <li class="tab col s6">
+              <a href="#photography" class="indigo-text text-darken-4">photography</a>
+              <li class="tab col s6">
+                  <a href="#editing" class="indigo-text text-darken-4">editing</a>
+                </li>
+            </li>
+          </ul>
+          <div class="col s12" id="photography">
+            <p class="flow-text indigo-text text-darken-4">PHOTOGRAPHY</p>
+            <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, nostrum?
+            </P>
+          </div>
+          <div class="col s12" id="editing">
+              <p class="flow-text indigo-text text-darken-4">EDITING</p>
+              <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, nostrum?
+              </P>
+            </div>
+        </div>
+      </div>
+      
+    </section>
+      <div class="parallax-container">
+          <div class="parallax">
+            <img src="img3.jpg" alt="" class="responsive-img">
+          </div>
+        </div>
+        <section class="section container scrollspy" id="contact">
+          <div class="row">
+            <div class="col s12 l5">
+              <h2 class="indigo-text text-darken-4">Get In Touch</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, veniam!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, veniam!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, veniam!</p>
+            </div>
+            <div class="col s12 l5 offset-l2">
+              <form action="">
+                <div class="input-field">
+                  <i class="material-icons prefix">email</i>
+                  <input type="email" id="email">
+                  <label for="email">your email</label>
+                </div>
+                <div class="input-field">
+                  <i class="material-icons prefix">message</i>
+                  <textarea id="message" class="materialize-textarea"cols="30" rows="10"></textarea>
+                  <label for="message">your message</label>
+                </div>
+                <div class="input-field">
+                  <input type="text" id="date" class="datepicker">
+                  <label for="date">choose a date</label>
+                  <div class="input-field">
+                    <p>services required</p>
+                    <p>
+                  <label >
+                    <input type="checkbox">
+                    <span>photography</span>
+                  </label>
+                </p>
+                <p>
+                    <label >
+                      <input type="checkbox">
+                      <span>editing</span>
+                    </label>
+                  </p>
+                </div>
+                <div class="input-field center">
+                  
+                <button class="btn">submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          </div>
+         
+    
+        </section>
+        <footer class="page-footer grey darken-3">
+          <div class="container">
+            <div class="row">
+              <div class=" col s12 l6">
+                <h1>About Me</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, ea.
+                </p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae modi fugit voluptates ipsum consectetur rem.</p>
+              </div>
+              <div class="col s12 l4 offset-l2">
+                  <h5>connect</h5>
+                  <ul>
+        <li><a href="#" class="grey-text text-lighten">Facebook</a></li>
+        <li><a href="#" class="grey-text text-lighten">Twitter</a></li>
+        <li><a href="#" class="grey-text text-lighten">Instagram</a></li>
+        <li><a href="#" class="grey-text text-lighten">Linkedin</a></li>
+       <li><a href="#" class="grey-text text-lighten">Youtube</a></li>
+                  </ul>
+            </div>
+         
+            </div>
+          </div>
+<div class="footer-copyright grey darken-4">
+  <div class="container center-align">&copy 2018 photo mark</div>
+</div>
+        </footer>
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function(){
+      $('.sidenav').sidenav();
+      $('.materialboxed').materialbox();
+      $('.parallax').parallax();
+      $('.tabs').tabs();
+      $('.datepicker').datepicker()({
+        disableweekends:true
+        });
+      $('.scrollspy').scrollSpy();
+      });
+    </script>
+  </body>
+</html>
